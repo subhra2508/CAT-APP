@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.setion-1 > img{
+    align-items: center;
+    justify-content: center;
+}
+button{
+     background-color:skyblue;
+     border-radius:5px;
+     justify-content: center;
+     align-items: center;
+     margin-top:20px;
+     margin-left:60px;
+     
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-left:60px;
+}
+.cat-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    margin-top:40%;
+    border:2px red   
+}
