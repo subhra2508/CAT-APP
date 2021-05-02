@@ -19,7 +19,9 @@ button{
      justify-content: center;
      align-items: center;
      margin-top:20px;
-     margin-left:60px;
+     margin-left:40px;
+     font-size:1.5rem;
+     box-shadow: 2px 2px 20px;
      
 }
 .btn{
@@ -34,5 +36,6 @@ button{
     margin-right:auto;
     width:80%;
     margin-top:40px;
-    border:2px red   
+    border:2px red;
+    box-shadow:  1px 1px 20px;  
 }
