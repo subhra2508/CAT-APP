@@ -8,6 +8,7 @@ body{
     /* overflow: hidden;
     overflow-x:hidden;
     overflow-y:hidden; */
+    background-color:  #f7f7f7;
 }
 .setion-1 > img{
     align-items: center;
@@ -19,7 +20,8 @@ button{
      justify-content: center;
      align-items: center;
      margin-top:20px;
-     margin-left:40px;
+     margin-left:auto;
+     margin-right:auto;
      font-size:1.5rem;
      box-shadow: 2px 2px 20px;
      
@@ -35,7 +37,28 @@ button{
     margin-left:auto;
     margin-right:auto;
     width:80%;
-    margin-top:40px;
-    border:2px red;
+    margin-top:30%;
     box-shadow:  1px 1px 20px;  
 }
+
+ @media only screen and (min-width:768px) {
+     body{
+         background: yellow;
+     }
+     .cat-img{
+         width:70%;
+         margin-top:20%; 
+     }
+ }
+ @media only screen and (min-width:1024px) {
+     body{
+         background:skyblue;
+     }
+     .cat-img{
+         width:50%;
+         margin-top:5px; 
+     }
+     button{
+         background-color:yellow;
+     }
+ }
